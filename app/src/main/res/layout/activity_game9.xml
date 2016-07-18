@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/bAboutGame"
+            android:background="@drawable/about"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/button"/>
+        <ImageButton
+            android:id="@+id/bSoundOffOn"
+            android:background="@android:color/transparent"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/button"/>
+        <ImageButton
+            android:id="@+id/bNewGame"
+            android:background="@drawable/restart"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/button"/>
+        <ImageButton
+            android:id="@+id/bBackMenu"
+            android:background="@drawable/back"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/button"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tPyatnashki"
+            android:text="@string/game8"
+            style="@style/textPuzzleStyle"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tSScore"
+                android:text="@string/Score"
+                android:textSize="@dimen/textScore9"
+                style="@style/textGameStyle9"/>
+            <TextView
+                android:id="@+id/tScore"
+                android:textSize="@dimen/textScore9"
+                style="@style/textGameStyle9"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp" >
+
+            <TextView
+                android:id="@+id/tBestSScore"
+                android:text="@string/bestScore"
+                android:textSize="@dimen/textBestScore9"
+                style="@style/textGameStyle15" />
+            <TextView
+                android:id="@+id/tBestScore"
+                android:textSize="@dimen/textBestScore9"
+                style="@style/textGameStyle15" />
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageButton
+                android:id="@+id/b900"
+                android:layout_row="0"
+                android:layout_column="0"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+            <ImageButton
+                android:id="@+id/b901"
+                android:layout_row="0"
+                android:layout_column="1"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:contentDescription="@string/button" />
+            <ImageButton
+                android:id="@+id/b902"
+                android:layout_row="0"
+                android:layout_column="2"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+
+            <ImageButton
+                android:id="@+id/b910"
+                android:layout_row="1"
+                android:layout_column="0"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+            <ImageButton
+                android:id="@+id/b911"
+                android:layout_row="1"
+                android:layout_column="1"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+            <ImageButton
+                android:id="@+id/b912"
+                android:layout_row="1"
+                android:layout_column="2"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+
+            <ImageButton
+                android:id="@+id/b920"
+                android:layout_row="2"
+                android:layout_column="0"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+            <ImageButton
+                android:id="@+id/b921"
+                android:layout_row="2"
+                android:layout_column="1"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+            <ImageButton
+                android:id="@+id/b922"
+                android:layout_row="2"
+                android:layout_column="2"
+                style="@style/gridBGameStyle9"
+                android:layout_marginRight="@dimen/button_margin"
+                android:layout_marginTop="@dimen/button_margin"
+                android:contentDescription="@string/button"/>
+        </GridLayout>
+
+    </LinearLayout>
+</RelativeLayout>

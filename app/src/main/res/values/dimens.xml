@@ -1,0 +1,33 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_margin">5dp</dimen>
+    <dimen name="Pyatnashki">60sp</dimen>
+    <dimen name="textSizeAbout">16sp</dimen>
+    <dimen name="textSizeHelp">25sp</dimen>
+    <dimen name="logoSizeW">340dp</dimen>
+    <dimen name="logoSizeH">170dp</dimen>
+    <dimen name="Padding">10dp</dimen>
+    <dimen name="Margin">5dp</dimen>
+    <dimen name="LayoutWidth">200dp</dimen>
+    <dimen name="levelBSize">100dp</dimen>
+    <dimen name="levelMargin">10dp</dimen>
+    <dimen name="levelMarginBotton">10dp</dimen>
+    <dimen name="buttonSettings">50dp</dimen>
+
+    <dimen name="textScore15">36sp</dimen>
+    <dimen name="textBestScore15">30sp</dimen>
+    <dimen name="textButton">40sp</dimen>
+    <dimen name="marginBotton">10dp</dimen>
+    <dimen name="buttonGame">100dp</dimen>
+    <dimen name="buttonWidth">215dp</dimen>
+    <dimen name="bGameSize15">80dp</dimen>
+
+    <dimen name="textScore24">34sp</dimen>
+    <dimen name="textBestScore24">26sp</dimen>
+    <dimen name="buttonSize24">65dp</dimen>
+
+    <dimen name="textScore9">36sp</dimen>
+    <dimen name="textBestScore9">30sp</dimen>
+    <dimen name="bGameSize9">110dp</dimen>
+</resources>

@@ -1,0 +1,22 @@
+﻿<resources>
+    <string name="app_name">П\'ятнашки</string>
+    <string name="game">П\'ятнашки</string>
+    <string name="game8">П\'ятнашки</string>
+    <string name="game15">П\'ятнашки</string>
+    <string name="game24">П\'ятнашки</string>
+    <string name="newGame">Нова гра</string>
+    <string name="continueGame">Продовжити</string>
+    <string name="Help">Допомога</string>
+    <string name="exitGame">Вихiд</string>
+    <string name="MainMenu"><b>Меню</b></string>
+    <string name="Score">Кiлькiсть ходiв: </string>
+    <string name="bestScore">Рекорд: </string>
+    <string name="you_won">Ви виграли! Вiтаємо!</string>
+    <string name="about_title">О игре:</string>
+    <string name="about_text"><b>П\'ятнашки</b>\n\nЛогiчна головоломка.\nЧисло в назвi гри походить вiд числа костяшок. Кожна костяшка пронумерована. Одна з комiрок не зайнята костяшкою. Гравець може перемiщати костяшки, використовуючи вiльну комiрку. Мета гри: перемiщаючи костяшки, домогтися упорядкування костяшок за номерами у порядку зростання, бажано зробивши якомога менше перемiщень. Костяшки перемiщаються за допомогою натискання.\n\nby: <b>Mr. Alex</b></string>
+    <string name="logo">Mr. Alex</string>
+    <string name="button">button</string>
+    <string name="buttonSound">Sound ON or OFF</string>
+    <string name="notSave">Збереження вiдсутнє! Розпочнiть нову гру.</string>
+    <string name="action_settings">Настройки</string>
+</resources>

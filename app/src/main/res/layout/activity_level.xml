@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:id="@+id/bSoundOffOn"
+            android:background="@android:color/transparent"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/buttonSound"/>
+        <ImageButton
+            android:id="@+id/bBackMenu"
+            android:background="@drawable/back"
+            style="@style/bSettingStyle"
+            android:contentDescription="@string/button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/levelMarginBotton"
+        android:layout_above="@+id/layoutButtons">
+
+        <TextView
+            android:id="@+id/tGame"
+            android:text="@string/newGame"
+            style="@style/textPuzzleStyle"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:id="@+id/bLevel9"
+            android:background="@drawable/level8"
+            style="@style/levelButton"/>
+        <ImageButton
+            android:id="@+id/bLevel15"
+            android:background="@drawable/level15"
+            style="@style/levelButton" />
+        <ImageButton
+            android:id="@+id/bLevel24"
+            android:background="@drawable/level24"
+            style="@style/levelButton"/>
+    </LinearLayout>
+</RelativeLayout>

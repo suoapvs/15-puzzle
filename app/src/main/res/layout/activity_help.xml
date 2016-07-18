@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:padding="@dimen/Padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/alphaWhite"
+        android:layout_above="@+id/bMenu">
+
+        <TextView
+            android:id="@+id/tAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_text"
+            android:textSize="@dimen/textSizeHelp"
+            android:textColor="@color/Black"
+            android:padding="@dimen/Padding"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bMenu"
+        android:text="@string/MainMenu"
+        style="@style/bMenuStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

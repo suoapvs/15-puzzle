@@ -1,0 +1,22 @@
+﻿<resources>
+    <string name="app_name">Пятнашки</string>
+    <string name="game">Пятнашки</string>
+    <string name="game8">Пятнашки</string>
+    <string name="game15">Пятнашки</string>
+    <string name="game24">Пятнашки</string>
+    <string name="newGame">Новая игра</string>
+    <string name="continueGame">Продолжить</string>
+    <string name="Help">Помощь</string>
+    <string name="exitGame">Выход</string>
+    <string name="MainMenu"><b>Меню</b></string>
+    <string name="Score">Количество ходов: </string>
+    <string name="bestScore">Рекорд: </string>
+    <string name="you_won">Вы выигралы! Поздравляем!</string>
+    <string name="about_title">О игре:</string>
+    <string name="about_text"><b>Пятнашки</b>\n\nЛогическая головоломка.\nЧисло в названии игры происходит от числа костяшек. Каждая костяшка пронумерована. Одна из ячеек не занята костяшкой. Игрок может перемещать костяшки за счет свободной ячейки. Цель игры — перемещая костяшки по коробке, добиться упорядочивания их по номерам в порядке возрастания, желательно сделав как можно меньше перемещений. Костяшки перемещаются с помощью нажатия.\n\nby: <b>Mr. Alex</b></string>
+    <string name="logo">Mr. Alex</string>
+    <string name="button">button</string>
+    <string name="buttonSound">Sound ON or OFF</string>
+    <string name="notSave">Сохранение отсутствует! Начните новую игру.</string>
+    <string name="action_settings">Settings</string>
+</resources>

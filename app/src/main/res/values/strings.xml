@@ -1,0 +1,24 @@
+﻿<resources>
+    <string name="app_name">15 puzzle</string>
+    <string name="game">15 puzzle</string>
+    <string name="game8">8 puzzle</string>
+    <string name="game15">15 puzzle</string>
+    <string name="game24">24 puzzle</string>
+    <string name="newGame">New game</string>
+    <string name="continueGame">Сontinue</string>
+    <string name="Help">Help</string>
+    <string name="exitGame">Exit</string>
+    <string name="MainMenu"><b>Main menu</b></string>
+    <string name="Score">Score: </string>
+    <string name="bestScore">Record: </string>
+    <string name="you_won">You have won! Congratulations!</string>
+    <string name="about_title">About:</string>
+    <string name="about_text"><b>15 puzzle</b>\n\nThe number in the title game is set on the number of cells. Each cell is numbered. One of the cells is not occupied. The player can move the cells by the free cell. Goal of the game - moving the cells of the box to achieve the ordering of numbers in ascending order, it is desirable to making as little as possible moves. Cells moved by pressing.\n\nby: <b> Mr. Alex</b></string>
+    <string name="logo">Mr. Alex</string>
+    <string name="button">button</string>
+    <string name="buttonSound">Sound ON or OFF</string>
+    <string name="notSave">Saving missing! Press a new game.</string>
+    <string name="level15">15</string>
+    <string name="level24">24</string>
+    <string name="action_settings">Settings</string>
+</resources>
