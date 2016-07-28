@@ -1,4 +1,6 @@
-<h2>Android game "15 puzzle"</h2>
+<h1>Android game "15 puzzle"</h1>
 Logic puzzle game. The number in the title game "15 puzzle" is set on the number of cells. Each cell is numbered. One of the cells is not occupied. The player can move the cells by the free cell. Goal of the game "15 puzzle" – moving the cells of the box to achieve the ordering of numbers in ascending order, it is desirable to making as little as possible moves.
-</br> _**Yurii Salimov**_
-</br>[Google Play](https://play.google.com/store/apps/details?id=com.mr_alex.rickivsmartin)
+
+![Menu | 15 puzzle](screenshots/screen_menu.jpg)...![15 puzzle](screenshots/screen_15.jpg)...![24 puzzle](screenshots/screen_24.jpg)
+
+[![Google Play](screenshots/google_play.png) **Google Play**](https://play.google.com/store/apps/details?id=com.mr_alex.rickivsmartin)   [![Linkedin](screenshots/linkedin.png) _**Yurii Salimov**_](https://www.linkedin.com/in/yurii-salimov)
