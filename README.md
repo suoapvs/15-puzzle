@@ -3,4 +3,4 @@ Logic puzzle game. The number in the title game "15 puzzle" is set on the number
 
 ![Menu | 15 puzzle](screenshots/screen_menu.jpg)...![15 puzzle](screenshots/screen_15.jpg)...![24 puzzle](screenshots/screen_24.jpg)
 
-[![Google Play](screenshots/google_play.png) **Google Play**](https://play.google.com/store/apps/details?id=com.mr_alex.rickivsmartin)   [![Linkedin](screenshots/linkedin.png) _**Yurii Salimov**_](https://www.linkedin.com/in/yurii-salimov)
+[![Google Play](screenshots/google_play_icon.png) **Google Play**](https://play.google.com/store/apps/details?id=com.mr_alex.rickivsmartin)   [![Linkedin](screenshots/linkedin_icon.png) **Yurii Salimov**](https://www.linkedin.com/in/yurii-salimov)
