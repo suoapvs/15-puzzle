@@ -7,16 +7,36 @@ public class Cards {
     private int n, m;
 
     public Cards(int N, int M) {
-        n = N; m = M;
-        board = new int [n][m];
+        n = N;
+        m = M;
+        board = new int[n][m];
+    }
+
+    private boolean isSolvable() {
+        int rank = 0;
+        int inversions = 0;
+        for (int i = 0; i < m * n; i++) {
+            int tile = board[i % n][i / m];
+            if (tile == 0) {
+                rank = i % n;
+                continue;
+            }
+            for (int j = i; j < m * n; j++) {
+                if (board[i % n][i / m] > tile) {
+                    inversions++;
+                }
+            }
+        }
+        if (n % 2 == 0) {
+            return ((rank + inversions) % 2 == 0);
+        } else {
+            return inversions % 2 == 0;
+        }
     }
 
     public void getNewCards() {
         board = new int [n][m];
         int boardX, boardY;
-        for (int i = 0; i < (n * m - 1); i++) {
-            board[i % n][i / m] = 0;
-        }
         for (int i = 0; i < (n * m); i++) {
             boardX = (int)(Math.random() * n);
             boardY = (int)(Math.random() * m);
@@ -25,6 +45,9 @@ public class Cards {
                 boardY = (int)(Math.random() * m);
             }
             board[boardX][boardY] = i;
+        }
+        while (!isSolvable()) {
+            getNewCards();
         }
     }
 
